@@ -42,7 +42,7 @@ Key Characterstics of Cloud:
   > Cost per unit(service) lowers as the company grows Due to increase in efficiency)
 
 
-  *Capital and Operational Expenditures
+* Capital and Operational Expenditures
 
   Expenditure is an action of spending your company funds.
 
@@ -57,7 +57,7 @@ Key Characterstics of Cloud:
   > Minimal maintenance (mostly handled by cloud providers)
   <img width="955" height="347" alt="image" src="https://github.com/user-attachments/assets/71210280-5661-443a-9ff8-1291e963fc5d" />
 
-  * Consumption Based Cloud model
+* Consumption Based Cloud model
  
   Key Characterstics:
   > No upfront costs 
@@ -66,6 +66,19 @@ Key Characterstics of Cloud:
   > stop paying at anytime
   > Multiple pricing components per service
   > very granular usage measurement
+
+* Cloud Service Models (Iaas v/s Paas v/s Saas)
+
+  Infrastructure as Service (IaaS):
+  All the layers that are directly related to the hardware ( virtualization, servers, networking, storage)
+
+  Platform as Service (PaaS):
+  All the software required to run the application (Runtime, middleware, OS)
+
+  Software as Service(Saas):
+  Application and data is software layer
+
+  
 
 
 
