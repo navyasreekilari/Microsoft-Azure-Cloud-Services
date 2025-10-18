@@ -34,6 +34,40 @@ Key Characterstics of Cloud:
 > Fault tolerance: ability of system to remian up and running during component and service failures
 > Disaster Recovery: creating 2 copies of application (system ability to recover from any unexpected disaster)
 > High Availability: High availability is the ability to keep services running for extended periods of time with very little downtime.
-> 
+
+
+* Principles of Economics of Scale
+
+  This will explain the cost of Azure.
+  > Cost per unit(service) lowers as the company grows Due to increase in efficiency)
+
+
+  *Capital and Operational Expenditures
+
+  Expenditure is an action of spending your company funds.
+
+  CapEX means :
+  > Own Infrasturcture
+  > Big initial investment
+  > Lots of maintenance is required
+
+  OPEx maens:
+  > Renting Infrasturcture (Cloud perfectly fits)
+  > No initial investment, pay for what you use.
+  > Minimal maintenance (mostly handled by cloud providers)
+  <img width="955" height="347" alt="image" src="https://github.com/user-attachments/assets/71210280-5661-443a-9ff8-1291e963fc5d" />
+
+  * Consumption Based Cloud model
+ 
+  Key Characterstics:
+  > No upfront costs 
+  > No wasted resources
+  > Pay for additional resources when needed
+  > stop paying at anytime
+  > Multiple pricing components per service
+  > very granular usage measurement
+
+
+
 
 
