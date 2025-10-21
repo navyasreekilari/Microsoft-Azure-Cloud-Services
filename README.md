@@ -1,7 +1,7 @@
 # Microsoft-Azure-Cloud-Services
 Azure fundamentals and concepts
 
-This notes is my personal understanding of the AZ-900 course.
+This notes is my personal understanding of the AZ-900 course based upon a Youtube Tutotrial.
 This is useful for people who are trying to understand basic Azure concepts and trying to participate for AZ-900 certificate exam.
 
 People with no prior clouding knowledge or no idea of basic Azure concepts can start with this course. This is where we begin the journey in the cloud.
