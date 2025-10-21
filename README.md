@@ -78,6 +78,30 @@ Key Characterstics of Cloud:
   Software as Service(Saas):
   Application and data is software layer
 
+* Public, Private and Hybrid cloud deployment models
+
+  Public Cloud: Everything runs on cloud provider hardware, No Local hardware (don't own our own hardware/datacenter). Hosting everyhting in public cloud
+  <img width="1042" height="506" alt="image" src="https://github.com/user-attachments/assets/061d2e3a-0045-4535-9b84-80539e147957" />
+
+  Private Cloud: You host everything in your own datacenter. You're the one maintainging all teh hardware.
+  <img width="1022" height="478" alt="image" src="https://github.com/user-attachments/assets/a39ebe60-ce4d-4997-9f93-d22e81edcb56" />
+
+  Hybrid Cloud: Will take advantage of both public and private clouds.
+  <img width="995" height="465" alt="image" src="https://github.com/user-attachments/assets/b9bd3fb1-ad98-4257-90cb-6354e3da194d" />
+
+* Azure Physical Infrastructure
+
+  Data Center: Data center is a physical facitlity that hosts for group of networked servers. A typical data center has its own power, cooling and networking infrastructure.
+  Region: It is a geographical area on the planet. It is the location for your services. Some of the services are not available in all regions. Azure is globally avaialble in 50+ regions. They were like government(US DOD, US Gov Virginia etc) and partnered(China East,            China North etc) regions.
+  Availability Zone: It is a regional feature, grouping of physically seperate facilitites. These are designed to protect from data center failures.If one zone goes down,then others keep working. Not all regions support availability zone. But, if a region supports it ...then they do have 3 or more zones. It is build from one or more datacenters.
+                      2 service categories: Zonal services (VM's , disks etc) and Zone redundant services (like SQL, storage etc).
+  Microsoft also provides "Region Pair"- which is a group of different regions. So, if one region goes down the other regions in the pair still work. These pairs are static (you cannot choose which regions to pair). But these pairs are done for regions within same        geography. Some services have platform-provided replication. Planned updates accross the pairs. Data residency is maintained for disaster recovery. Below are few examples for 'region pairs'
+  <img width="1044" height="532" alt="image" src="https://github.com/user-attachments/assets/961a53dc-1bf3-490e-8308-c2c417f8de46" />
+
+  Geographies: All regions or region pairs are grouped into geographies. Each geography describes discrete market. Typically contains 2 or more regions. Ensure data residency, sovereignty, resiliency and compliance requirements are met. These are fault tolerant to                     protect from region wide failures.Each region belongs to only one geography.
+
+
+
   
 
 
