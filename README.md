@@ -100,8 +100,35 @@ Key Characterstics of Cloud:
 
   Geographies: All regions or region pairs are grouped into geographies. Each geography describes discrete market. Typically contains 2 or more regions. Ensure data residency, sovereignty, resiliency and compliance requirements are met. These are fault tolerant to                     protect from region wide failures.Each region belongs to only one geography.
 
+* Resources, Resource Groups and Resource Manager
+
+  Resources: It can be any SQL or Web or staorage that Azure provides to cusotmers. It is an object that is used to manage services in Azure. It represents service lifecycle. All resources can be represented in JSON template (they have 4 properties like Type,                        APIversion, Name, Location)
+  Resource Groups: It is just grouping resources. We can group by type, lifecycle, department, billing, location or combination of those. Each resource must be in one, and only one resource group. They have their own location assigned. BUt, resources can reside in                         different locations. Resources can be moved between resource groups. Resource groups cannot be nested.
+  Resource Manager: It is a management layer for all resources and resource groups. It has unified language. It is also responsible for checking your rights/privileges with Azure directory. It controls access and resources.
+
+* Azure Compute Services (VMs, VM Scale Set, App Service, Functions, ACI, AKS)
+  Compute Services is a category of services in Azure allowing u to build and run cloud based services.
+  Virtualization: On Physical machine you will install Operating System and additionally install virtualization software with several VM's. It is emualization of physical machines. It gives ability to create virtual hardware configuration per machine/app.
+                  Additonally different Operating systems per machine/app.
+  And, virtulaization in cloud is done through Azure Virtual Machines: You either bribe microsoft VM's (like Windows, Linux or Oracle) or you can request your own VM's (with your own system, config, runtime, apps and services)
+
+  VM's are Iaas . You are responsible for OS and software. Support marketplace and custom images. Best suited for custom software requiring custom configuration (or) lift-and-shift scenarios. They can run any apps/scenarios.
+  VM scale stes : are Iaas. But they are set of identical VM's created from same image. They built-in scaling features is wsed for designing manual and auto-scaled workloads like web services, batch processing etc.
+  Containers: They don't have their won OS(Use hosts OS). They emulate OS and lightweight. Respond quick to demand changes. Designed for almost any scenario.
+  First service for containers is Container Instances.
+  Container Instances are Simplest and fastest way to run a container in Azure. It is Paas and serveless containers. Designed for small and simple web apps/services, background jobs and scheduled scripts.
+  Azure Kubernetes Services: It is an open source container orchestration platform. It is Paas, highly scalable and customizable. It is designed for high scale container deployments.
+  App Service: Designed as enterprise grade web application service. It is another Paas. Supports mulitple programming languages and containers.
+  Azure functions/function apps: It is Paas. Serverless. 2 hosting/pricing models (consumption-based plan & dedicated plan). Designed for nano or micro services.
+  Below is the summary of Azure Compute Services:
+  <img width="1091" height="433" alt="image" src="https://github.com/user-attachments/assets/e0024b5a-2504-4758-8669-ea5467b00eb0" />
+  <img width="1011" height="532" alt="image" src="https://github.com/user-attachments/assets/7aea567e-0b7f-4916-8e5e-f200a76420e6" />
+  <img width="1063" height="599" alt="image" src="https://github.com/user-attachments/assets/4a3ed43e-6e3e-49f9-a2fb-a4a42e482e82" />
 
 
+
+  
+  
   
 
 
