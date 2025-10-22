@@ -125,6 +125,23 @@ Key Characterstics of Cloud:
   <img width="1011" height="532" alt="image" src="https://github.com/user-attachments/assets/7aea567e-0b7f-4916-8e5e-f200a76420e6" />
   <img width="1063" height="599" alt="image" src="https://github.com/user-attachments/assets/4a3ed43e-6e3e-49f9-a2fb-a4a42e482e82" />
 
+* Networking Services
+  It is a category of services that allows to connect cloud and on-premises resources. Helpful for protection and monitor services along with application delivery.
+  Azure Virtual Network: It is a group of Vm's or subnets. We can connect Virtual network's together using "VNET PEERING" or "VPN GATEWAY".
+  <img width="1167" height="558" alt="image" src="https://github.com/user-attachments/assets/c6cac9e0-ae50-4cbf-bd63-7f83a67022bd" />
+  VPN Gateway: It is used to connect 2 VM's or a VM and On-Premise resource.
+  <img width="1004" height="337" alt="image" src="https://github.com/user-attachments/assets/f81f72dc-432d-470d-9e25-9f3f160ffcc7" />
+  Azure Load Balancer: We can have 2 different load balancers, one with public internet traffic control known as 'Public Load balancer' and other private IP allowing private connectivity know as 'Internal Load Balancer'
+  <img width="1118" height="478" alt="image" src="https://github.com/user-attachments/assets/860be8b9-fda6-4750-bee5-2696c0a929dd" />
+  Applciation Gateway: If a traffic is a web traffic(HTTP) then we want to replace load balancer with application gateway. (It is nothing but a replacement of Public Load balancer)
+  <img width="964" height="527" alt="image" src="https://github.com/user-attachments/assets/349c99b9-5fae-4a10-86e4-9902fc5dab5a" />
+  Content Delivery Network(CDN): allows deliver of web content to user to minimize latency. And all the content is prresent in POP(points of presence) locations.
+  <img width="1139" height="480" alt="image" src="https://github.com/user-attachments/assets/d152285c-b4ed-47cf-91ba-b90e3b5d9291" />
+
+
+
+
+
 
 
   
