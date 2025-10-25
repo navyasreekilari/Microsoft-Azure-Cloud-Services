@@ -138,6 +138,27 @@ Key Characterstics of Cloud:
   Content Delivery Network(CDN): allows deliver of web content to user to minimize latency. And all the content is prresent in POP(points of presence) locations.
   <img width="1139" height="480" alt="image" src="https://github.com/user-attachments/assets/d152285c-b4ed-47cf-91ba-b90e3b5d9291" />
 
+* Azure Storage Services
+  Types of data
+  Structured Data: Your data is laid out so nicely that it can be described using a specific schema. For each row of the table you can define properties and any relationship between tables.
+  Semi Structure Data: You still have a table but each row need not to be followed any specific schema. Where each row can have its own properties.
+  Un-Structures Data: Data like images, movies, binary application files that donot follow any structure and donot follow any particular schema.
+
+  Azure Blob Storage: Any un-structured data called BLOB. And you can put those BLOB's into any container. Azure BLOB STORAGE is more than one container.
+  It is designed for storage of any files (Binary Large Object File).
+  They are 3 storage tiers: HOT (Used for frequently accessed data), COOL (You're accepting lower availability and lower performance files while maintaing higher durability), ARCHIVE (rarely if-ever accessed data)
+  
+  <img width="957" height="558" alt="image" src="https://github.com/user-attachments/assets/6607b52b-bc18-4aae-958e-71343ffcacc3" />
+
+  Azure Queue Storage: Small Service and significant service when building application. It is used to store small pieces of data(messages) and designed for scalable asynchronus processing.
+  Azure Table Storage: This is designed for semi-structured data in mind. It is storage of multiple tables. This is also called no SQL database's. We use this kind of storage when there is no need for foreign joins, foreign keys, realtionships or strict schema. This is designed for fast access.
+  Azure File Storage: It is similar to BLOB storage. In file storage we use Files instead of BLOB's. The only difference is the way you access them, in file storage you accesss by SMB protocol. Storage for files accessed via shared drive protocols. Designed to extend on-premises file shares or implement lift-and-shift scenarios.
+  Azure Storage Account: It is a group of services that include blob, queue, file and table storage. They are designed to store messages, text, files and semi-sturctured data. It is highly scalable and highly durable.It is cheapest per GB storage.
+  Azure disk storage: Disk emulation in cloud. Persistent storage for VM's. It comes with different types, sizes and perforamce tiers. It allows customers to manage or unmanage the disks.
+  <img width="1027" height="463" alt="image" src="https://github.com/user-attachments/assets/0d4f6709-a569-45e2-96ea-00a80382792a" />
+
+  
+
 
 
 
