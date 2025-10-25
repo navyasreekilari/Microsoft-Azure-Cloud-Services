@@ -168,6 +168,26 @@ Azure SQl:
 
 <img width="995" height="477" alt="image" src="https://github.com/user-attachments/assets/4037ae03-a9ef-4985-b6f2-bf4c8847036a" />
 
+* Azure MarketPlace
+  It is similar to online shop. You can select ur products you need add it to ur bpx and buy it.
+  Where u purchase azure services or out of office box solutions. Inside azure marketplace you can find products made by microsoft or third party services. The products consisits of Paas, Saas, and Iaas.<img width="992" height="562" alt="image" src="https://github.com/user-attachments/assets/d2d63ccb-6e7b-4bcb-905f-e41a1159ef52" />
+
+* Azure IOT Services
+  Internet of things: It is a network of internet connected devices embedded in everyday objects enabling sending and receiving data such as settings and telemetry.
+  Azure IOT Hub: ALlows for bi-directional service between cloud and IOT devices. Allows developers to take advantage of providing insigihts, developing and monitoring .
+  <img width="903" height="456" alt="image" src="https://github.com/user-attachments/assets/7a7787d2-b2f9-45c8-be13-de9626b21792" />
+  Azure IOT Central: IOT central as service provides u set of templates to build applications.Users donot need to build apps from  scratch.
+  <img width="782" height="413" alt="image" src="https://github.com/user-attachments/assets/daf319bf-780f-4784-ae8d-d105d2a6d626" />
+
+  Azure Sphere: It is not a service along. It is set of compnents used to build IOT. Azure sphere also delivers Azure sphere security service.
+  <img width="747" height="307" alt="image" src="https://github.com/user-attachments/assets/6d5f21f9-e644-4333-aa48-f1abc09e951c" />
+  <img width="925" height="346" alt="image" src="https://github.com/user-attachments/assets/4f44a3b6-f5cd-40f3-9ad8-36dcdc0233ed" />
+
+
+
+
+
+
 
 
   
