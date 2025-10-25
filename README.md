@@ -157,6 +157,21 @@ Key Characterstics of Cloud:
   Azure disk storage: Disk emulation in cloud. Persistent storage for VM's. It comes with different types, sizes and perforamce tiers. It allows customers to manage or unmanage the disks.
   <img width="1027" height="463" alt="image" src="https://github.com/user-attachments/assets/0d4f6709-a569-45e2-96ea-00a80382792a" />
 
+* Database Services in Azure
+  Azure Cosmos DB: It is Similar to semi-structured data. But instead of Tables this one will have Collections and instead of table storage it is known as Cosmos DB. It has ability to replicate geographically.
+  Once you select the region then your db will replicate the region's db. It can read and write globally. This db is low latency. It is globally distributed NOSQL (semi-structured data) db service. It is schema-less db. abiltiy to multiple APIs(SQL, MongoDB, Cassanda, Gremlin, Table storage). It is designed for higly responsive and mulit-regional applications.
+
+  Azure SQL DB: Storing structure data. It is relational db service in the cloud(Paas)(DBaas-database as Service). Structured data service defined using schema and relationships. Rich query capabilities.It has high-performance, reliable, fully managed and secure dbfor building applications.
+<img width="1007" height="503" alt="image" src="https://github.com/user-attachments/assets/d8f86dcc-beb4-47c7-854d-9c5a5524d856" />
+Azure SQl:
+<img width="967" height="498" alt="image" src="https://github.com/user-attachments/assets/528e140a-ca19-49e0-be19-d538b15c7496" />
+
+<img width="995" height="477" alt="image" src="https://github.com/user-attachments/assets/4037ae03-a9ef-4985-b6f2-bf4c8847036a" />
+
+
+
+  
+
   
 
 
