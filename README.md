@@ -195,6 +195,22 @@ Azure SQl:
   It is a big data colloboration platform (Paas). It provides unified workspace for notebook, cluster, data , access management and colloboration.It is based on Spark Integrates well with common azure data         services.
   <img width="913" height="541" alt="image" src="https://github.com/user-attachments/assets/db50bfe8-2e00-4df4-81f2-160b31e56117" />
   <img width="1000" height="386" alt="image" src="https://github.com/user-attachments/assets/1c558494-149d-4169-ab55-a6ea375b09d3" />
+* Azure AI Services
+  AI is a simulation of human intelligence and capabilities by computer software. Machine Learning is a subcategory of AI where a computer software is taught to draw conclusions and make predicitons from data.
+  Azure Machine Learning: It is end-to-end cloud based platform for creating, managing and publishing ML models. It is Paas. Top level resource is know as ML workspace. ML studio is a web portal for end-2-end development. Key features of axure ML are notebook(using python and  R), Automated ML (run multiple parameters/algorithms combinations), designer (graphical interface for no-code development, it enables customers build their ML pipelines visually), data & compute (management of storage and compute resources) and Pipelines (orchestrate data model training, deployemnet and management tasks).
+
+  <img width="996" height="463" alt="image" src="https://github.com/user-attachments/assets/8afc27c0-db38-46bd-bdab-0552abb838ca" />
+
+* Azure Serverless Computing Services
+  Serverless Computing: Is cloud-hosted execution environment that allows customers to run their applications in cloud while completely abstracting underlying infrastructure.
+  Azure Functions: It is a service that allows cusotmers to build applications using code. Cutosmers create code package them and sends to fucntion app and later it is distributed among multiple app node's .
+  It is simply serverless coding platfrom(functions as a service, Faas). Designed for nano-service architectures and event-based applications. It quiclkly scales up and down, highly scalable. Supports popular languages and frameworks (like .NET, .NET Core, Jave, Node.js, Python, Powershell etc).
+  Azure Logic Apps: This service is used to build workflows interface that represent business or cross functional. These are serverless enterprise integration service (Paas), it has 200+ connectors for popular services. This service is specifically desinged for orchestration of business processes, integration workflows for applications, data, systems and services. It is no-code solution.
+  Azure Event Grid: It is a service for routing messages. Fully managed serverless event routing service. Uses publish-subscribe model. Designed for event based and naer real time applications. It supports lot of built-in events from common azure services.
+  <img width="1015" height="412" alt="image" src="https://github.com/user-attachments/assets/1070e539-2b81-4811-9f7f-dded9418f3f3" />
+
+  
+
 
 
 
