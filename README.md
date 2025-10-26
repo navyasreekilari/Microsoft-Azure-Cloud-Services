@@ -209,7 +209,18 @@ Azure SQl:
   Azure Event Grid: It is a service for routing messages. Fully managed serverless event routing service. Uses publish-subscribe model. Designed for event based and naer real time applications. It supports lot of built-in events from common azure services.
   <img width="1015" height="412" alt="image" src="https://github.com/user-attachments/assets/1070e539-2b81-4811-9f7f-dded9418f3f3" />
 
-  
+* Azure DevOps Solutions
+  DevOps: It is a set of pracitices that combine both development(dev) and Operations(Ops). It's goal is to shorten development life cycle by providing continuous integration and delivery capabilities while        ensuring high quality of deliverables. 
+  Azure DevOps: It is a collection of services for building solutions using DevOps practices. It provides services like boards, pipelines, repos, test plans, artifacts. It is extensible with maketplace over 1000 of available apps. Evolved from TFS through VSTS.
+
+  <img width="960" height="457" alt="image" src="https://github.com/user-attachments/assets/b283cef3-8f06-4939-a1a9-fd1c08476c34" />
+
+  Azure DevTest Labs: It provides ability for users to create VM's so that they can very quickly develop things and test things. It is a service sandbox environment for developers/testers (Paas). It provides ability to quick setup of self-managed virtual machines , preconfigured templates for VMs and plenty of additional artifacts (tools, custom actions, apps). Additonally u will have lab policies (quotas, sizes, auto-shutdowns). You can share and automate labs via custom images.
+  <img width="1030" height="541" alt="image" src="https://github.com/user-attachments/assets/461765af-1689-4c70-bbed-cd5f064ee65f" />
+  <img width="1012" height="301" alt="image" src="https://github.com/user-attachments/assets/c8453121-7439-4b38-9474-c1381d3ffec0" />
+
+
+
 
 
 
