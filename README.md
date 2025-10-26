@@ -183,6 +183,21 @@ Azure SQl:
   <img width="747" height="307" alt="image" src="https://github.com/user-attachments/assets/6d5f21f9-e644-4333-aa48-f1abc09e951c" />
   <img width="925" height="346" alt="image" src="https://github.com/user-attachments/assets/4f44a3b6-f5cd-40f3-9ad8-36dcdc0233ed" />
 
+* Azure Big Data & Analytics Services
+  Big data is a field of technology that helps with extraction, processing and analysis of information that is too large or complex to deal with traditional software.
+  Azure Synapse Anslytics: It is big data analytics plateform (PAAS). It consits of multiple components (SPark, synapse SQL) . It also have Synapse pipelines with studio included
+  <img width="922" height="555" alt="image" src="https://github.com/user-attachments/assets/92bb830f-46be-423d-b331-99682f72808c" />
+
+  Azure HDinsight: Felxible multi-purpose big data platform (Paas). It supports multiple technologies(Hadoop, spark, kafka, HBase, Hive, Storm, Machine Learning)
+
+  <img width="932" height="553" alt="image" src="https://github.com/user-attachments/assets/529feb77-333b-4ade-aa3a-23cd683c5988" />
+  Azure Databricks: It is quite similar to HDinsight apart the clusters we create are depended upon apache spark & spark. Main purpose is to help data transforamtion at large scale.
+  It is a big data colloboration platform (Paas). It provides unified workspace for notebook, cluster, data , access management and colloboration.It is based on Spark Integrates well with common azure data         services.
+  <img width="913" height="541" alt="image" src="https://github.com/user-attachments/assets/db50bfe8-2e00-4df4-81f2-160b31e56117" />
+  <img width="1000" height="386" alt="image" src="https://github.com/user-attachments/assets/1c558494-149d-4169-ab55-a6ea375b09d3" />
+
+
+
 
 
 
