@@ -219,6 +219,24 @@ Azure SQl:
   <img width="1030" height="541" alt="image" src="https://github.com/user-attachments/assets/461765af-1689-4c70-bbed-cd5f064ee65f" />
   <img width="1012" height="301" alt="image" src="https://github.com/user-attachments/assets/c8453121-7439-4b38-9474-c1381d3ffec0" />
 
+* Azure Tools
+  Azure Portal: It is a public web-based interface for management of Azure Platform. Designed for self-service. It is quite customizable, and designed to help customer for simple tasks.
+  Azure Powershell: It is simply a module, designed for automation and mulit-platform with PowerSHell Core. It is simple use (Connect-Azaccount - log into azure, Get-AzResourceGroup - list resource groups, New- AzResourceGroup - to create new resource group, New-AzVm - to create VM) (It is moslty benefical for people who use WINDOWS)
+  Azure CLI(Command Line Interface): This is more beneficial for people with LINUX. CLI for Azure and also desinged for automation. It is multi-platform(Python). SImple to use (az login - to login to Azure, az group List - list resource groups, az group create - create new resource group, az vm create - create VM). It is just a tool for native OS terminal.
+  Azure Cloud Shell: It is cloud-based scripting environment and completely free. It supports both Azure powershell and azure CLI. It does of dozen of additional tools. And, it does have multiple client interfaces like Azure portal integration (portal.azure.com), Shell Portal (shell.azure.com), Visual stuidon code extension and Windows Terminal, Azure Mobile app and Microsoft docs integration.
+  <img width="1045" height="413" alt="image" src="https://github.com/user-attachments/assets/91fd9531-9df9-460c-9485-33ae052fae1f" />
+
+* Azure Advisor
+  It is our personalized consultant service, designed to provide reommendations and best practices for Cost (SKU sizes, idel services, reserved instances etc), Security (MFA settings, vulnerability settings, agent installations etc), Reliability (redundancy settings, soft delete on blobs etc), Performance(SKU sizes, SDK versions, IO throttling etc), operational excellence (service health, subscription limits etc). It comes with actionable recommendations. And all these are for free.
+
+* Azure Security Groups
+  Network Security Groups (NSG): It is designed to filter traffic to(inbound) and from (outbound) Azure resources located in Azure Virtual network. This filtering is controlled by rules and it does have ability to have multiple inbound and outbound rules. These rules are created by specifying Source/Destination (IP addresses, service tags, application security groups), protocol (TCP, UDP any), Port and Direction (inbound, outbound), Priority (order of evaluation)
+  Application Security Group (ASG): It is a feature that allows grouping of VM's located in Azure virtual network.Desinged to reduce the maintenance effort (assign ASG insted of explicit IP addresses)
+
+  <img width="1144" height="378" alt="image" src="https://github.com/user-attachments/assets/e08f48f4-9b42-4803-8020-3ebccb979d8c" />
+
+
+
 
 
 
