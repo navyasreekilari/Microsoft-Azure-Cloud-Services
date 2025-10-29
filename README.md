@@ -242,6 +242,15 @@ Azure SQl:
 
   <img width="1144" height="378" alt="image" src="https://github.com/user-attachments/assets/e08f48f4-9b42-4803-8020-3ebccb979d8c" />
 
+* User Defined Routes (UDR) with Route Tables
+
+  Routing is a process of finding/selecting a path for a traffic between one or more servers in one or across multiple networks. User defined routes are custom-defined routes. These are designed to override Azure default routing or add new routes. This is managed by Azure Route table resource, and route tables are designed to associate with zero or more Virtual network subnets.
+
+
+* Azure Firewall
+  
+  Firewall is a network security service that allows customers to monitor and control incoming and outgoing traffic.
+  Azure Firewall is a managed, cloud-based firewall service(Paas). It is build with high-availability and highly scalable. It allows to filter inbound and outbound traffic. Supports for FQDN (Fully Qualified Domain Name). And, it is fully integrated with Azure monitor   for logging and analytics.
 
 
 
