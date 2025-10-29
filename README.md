@@ -230,6 +230,7 @@ Azure SQl:
   It is our personalized consultant service, designed to provide reommendations and best practices for Cost (SKU sizes, idel services, reserved instances etc), Security (MFA settings, vulnerability settings, agent installations etc), Reliability (redundancy settings, soft delete on blobs etc), Performance(SKU sizes, SDK versions, IO throttling etc), operational excellence (service health, subscription limits etc). It comes with actionable recommendations. And all these are for free.
 
 * Azure Security Groups
+  
   Network Security Groups (NSG): It is designed to filter traffic to(inbound) and from (outbound) Azure resources located in Azure Virtual network. This filtering is controlled by rules and it does have ability to have multiple inbound and outbound rules. These rules are created by specifying Source/Destination (IP addresses, service tags, application security groups), protocol (TCP, UDP any), Port and Direction (inbound, outbound), Priority (order of evaluation)
   Application Security Group (ASG): It is a feature that allows grouping of VM's located in Azure virtual network.Desinged to reduce the maintenance effort (assign ASG insted of explicit IP addresses)
 
