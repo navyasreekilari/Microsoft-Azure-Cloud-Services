@@ -139,6 +139,7 @@ Key Characterstics of Cloud:
   <img width="1139" height="480" alt="image" src="https://github.com/user-attachments/assets/d152285c-b4ed-47cf-91ba-b90e3b5d9291" />
 
 * Azure Storage Services
+  
   Types of data
   Structured Data: Your data is laid out so nicely that it can be described using a specific schema. For each row of the table you can define properties and any relationship between tables.
   Semi Structure Data: You still have a table but each row need not to be followed any specific schema. Where each row can have its own properties.
@@ -158,6 +159,7 @@ Key Characterstics of Cloud:
   <img width="1027" height="463" alt="image" src="https://github.com/user-attachments/assets/0d4f6709-a569-45e2-96ea-00a80382792a" />
 
 * Database Services in Azure
+  
   Azure Cosmos DB: It is Similar to semi-structured data. But instead of Tables this one will have Collections and instead of table storage it is known as Cosmos DB. It has ability to replicate geographically.
   Once you select the region then your db will replicate the region's db. It can read and write globally. This db is low latency. It is globally distributed NOSQL (semi-structured data) db service. It is schema-less db. abiltiy to multiple APIs(SQL, MongoDB, Cassanda, Gremlin, Table storage). It is designed for higly responsive and mulit-regional applications.
 
@@ -173,6 +175,7 @@ Azure SQl:
   Where u purchase azure services or out of office box solutions. Inside azure marketplace you can find products made by microsoft or third party services. The products consisits of Paas, Saas, and Iaas.<img width="992" height="562" alt="image" src="https://github.com/user-attachments/assets/d2d63ccb-6e7b-4bcb-905f-e41a1159ef52" />
 
 * Azure IOT Services
+  
   Internet of things: It is a network of internet connected devices embedded in everyday objects enabling sending and receiving data such as settings and telemetry.
   Azure IOT Hub: ALlows for bi-directional service between cloud and IOT devices. Allows developers to take advantage of providing insigihts, developing and monitoring .
   <img width="903" height="456" alt="image" src="https://github.com/user-attachments/assets/7a7787d2-b2f9-45c8-be13-de9626b21792" />
@@ -202,6 +205,7 @@ Azure SQl:
   <img width="996" height="463" alt="image" src="https://github.com/user-attachments/assets/8afc27c0-db38-46bd-bdab-0552abb838ca" />
 
 * Azure Serverless Computing Services
+  
   Serverless Computing: Is cloud-hosted execution environment that allows customers to run their applications in cloud while completely abstracting underlying infrastructure.
   Azure Functions: It is a service that allows cusotmers to build applications using code. Cutosmers create code package them and sends to fucntion app and later it is distributed among multiple app node's .
   It is simply serverless coding platfrom(functions as a service, Faas). Designed for nano-service architectures and event-based applications. It quiclkly scales up and down, highly scalable. Supports popular languages and frameworks (like .NET, .NET Core, Jave, Node.js, Python, Powershell etc).
@@ -210,6 +214,7 @@ Azure SQl:
   <img width="1015" height="412" alt="image" src="https://github.com/user-attachments/assets/1070e539-2b81-4811-9f7f-dded9418f3f3" />
 
 * Azure DevOps Solutions
+  
   DevOps: It is a set of pracitices that combine both development(dev) and Operations(Ops). It's goal is to shorten development life cycle by providing continuous integration and delivery capabilities while        ensuring high quality of deliverables. 
   Azure DevOps: It is a collection of services for building solutions using DevOps practices. It provides services like boards, pipelines, repos, test plans, artifacts. It is extensible with maketplace over 1000 of available apps. Evolved from TFS through VSTS.
 
@@ -220,6 +225,7 @@ Azure SQl:
   <img width="1012" height="301" alt="image" src="https://github.com/user-attachments/assets/c8453121-7439-4b38-9474-c1381d3ffec0" />
 
 * Azure Tools
+  
   Azure Portal: It is a public web-based interface for management of Azure Platform. Designed for self-service. It is quite customizable, and designed to help customer for simple tasks.
   Azure Powershell: It is simply a module, designed for automation and mulit-platform with PowerSHell Core. It is simple use (Connect-Azaccount - log into azure, Get-AzResourceGroup - list resource groups, New- AzResourceGroup - to create new resource group, New-AzVm - to create VM) (It is moslty benefical for people who use WINDOWS)
   Azure CLI(Command Line Interface): This is more beneficial for people with LINUX. CLI for Azure and also desinged for automation. It is multi-platform(Python). SImple to use (az login - to login to Azure, az group List - list resource groups, az group create - create new resource group, az vm create - create VM). It is just a tool for native OS terminal.
