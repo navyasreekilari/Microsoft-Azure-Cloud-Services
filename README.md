@@ -253,6 +253,30 @@ Azure SQl:
   Azure Firewall is a managed, cloud-based firewall service(Paas). It is build with high-availability and highly scalable. It allows to filter inbound and outbound traffic. Supports for FQDN (Fully Qualified Domain Name). And, it is fully integrated with Azure monitor   for logging and analytics.
 
 
+* Azure DDoS Protection (Distributed Denial of Service)
+
+  DOS is denial of Service. It is a cyber attack with intent to cause temporary or indefinite disruption of service. They are many types of DoS, but their main goal is to stop your service.
+  Distributed Denial Of Service is one of them.
+  DDoS Protection: It is in Azure. Designed to detect malicious traffic and block it while allowing legitimate users to connect, prevent additional osts for auto-scaling environments. It is divided into 2 tiers - Basic (automatically enabled for Azure Platform), Standard (additional mitigation & montioring capabilities for Azure Virtual Network services). Standard tiers uses ML to analyze traffic pattern.
+
+* Azure Identity Services
+
+  Identity: In general, it is the fact of being something or someone. A user with a username and password. Also applications or other servers with secret keys or certificates.
+  Process of verification/assertion of identity is called Authentication.
+  Authorization: The process of ensuring that only authenticated identities get access to resources for which they have been granted access. 
+  Access Management: The process of controlling, verifying, tracking and managing access to authorized users and applications.
+  Azure AD: It is our identity & access management service in Azure.   Identity management - users, groups, applications. Access management - subscriptions, resource groups, roles, role assignments, authentication & authorization settings etc. It is used by multiple cloud platforms like azure, microsoft 365, office 365 etc. It can sysn with on-premises Active directory.
+  Multi-factor authentication: Process of presenting two or more pieces of evidence to prove one's identitiy. They ar emany factor types like Knowledge factor (Something you know, ex: password, pin), Possession factor (Something you have, ex: Phone, token, card, key), Physical Characteristic Factor (Something you are, ex: fingerprint, voice, face, eye irirs), Location (Somewhere you are, ex: GPS location). And all this Supported by Azure AD by default(simple on-off switch).
+
+* Azure Security Center
+
+  Centralized/unified infrastructure and platform security management service. Natively embedded in Azure services. It is integrated with Azure advisor. It has 2 tiers - Free (Azure defender OFF): included in all azure services, provides continuous assessments, security score, and actioanble security recommendations, Paid (Azure Defender ON) - hybrid security, threat protection alerts, vulnerability scanning, just in time VM access, etc.
+
+* Azure Key Vault
+
+  It is secured storage for keys, secrets and certificates. I tis managed service for securing sensitive information (Application/platform )(PaaS). It is Highly integrated with other azure services (VMs, Logic Apps, Data Factory , Web Apps etc). Centralization. Access monitoring and logging.
+  
+
 
 
 
