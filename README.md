@@ -275,6 +275,14 @@ Azure SQl:
 * Azure Key Vault
 
   It is secured storage for keys, secrets and certificates. I tis managed service for securing sensitive information (Application/platform )(PaaS). It is Highly integrated with other azure services (VMs, Logic Apps, Data Factory , Web Apps etc). Centralization. Access monitoring and logging.
+
+* Azure Role-based Access Control (RBAC)
+
+  Role is a collection of actions that the assigned identity will be able to perform.
+  Security Principal is an Azure object (identity) that can be assigned to a role (ex: users, groups or apps). Scope is one or more azure resources that the access applies to.
+  <img width="833" height="428" alt="image" src="https://github.com/user-attachments/assets/d6a89192-2aec-42dd-9b28-f1cf772bde0a" />
+  
+
   
 
 
