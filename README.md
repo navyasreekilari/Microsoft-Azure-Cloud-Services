@@ -281,6 +281,18 @@ Azure SQl:
   Role is a collection of actions that the assigned identity will be able to perform.
   Security Principal is an Azure object (identity) that can be assigned to a role (ex: users, groups or apps). Scope is one or more azure resources that the access applies to.
   <img width="833" height="428" alt="image" src="https://github.com/user-attachments/assets/d6a89192-2aec-42dd-9b28-f1cf772bde0a" />
+
+* Azure Resource Locks
+
+  Azure resource locks are designed to prevent accidental deletion/modification. They should be used in conjuction with Raw base access control(RBAC). They are currently 2 types of locks: Read-only (Only read actions are allowed), Delete(CanNotDelete) (all actions except delete are allowed). Scopes are hierarchical (inherited) [Subscriptions> Resource Groups> Resources]. Management groups cannot be locked. Only Owner and User Access Administrator roles can manage locks (built-in roles).
+
+* Azure Resource Tags
+
+  Tags are very simple Name(Key) - Value pairs. Designed to help with organization of Azure resources. Used for resource governance, security, operations management, cost management, automation etc.
+  Typical tagging strategies: Functional - mark by function (ex: environment = production), Classification - mark by policies used (ex: classification = restricted), finance/accounting - mark for billing purposes (ex: department = finance), Partnership - mark by association of user/groups (ex: owner = Joe). Applicable for resources, resource groups and subscriptions. Not inherited by default.
+
+* 
+  
   
 
   
