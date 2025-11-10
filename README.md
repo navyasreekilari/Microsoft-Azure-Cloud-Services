@@ -298,6 +298,10 @@ Azure SQl:
   Policy initiative - a group of policy definitions.
   Policy assignment - assignment of a policy definition/inititative to a scope. Scopes can be assigned to management groups, subscriptions, resources and resource groups. Policy allows exclusion of scopes.
 
+* Azure Blueprints
+
+  A blueprint is a guide, pattern or design for making something. It is a package of various azure components (artifacts) like resource groups, ARM templates, Policy assignments, role assignments. Centralized storage for organizationally approved design patterns. Blueprint definition - describing what should happen (reusable package). Blueprint assignemnt - describing where it should happen (package deployment). A blueprint assigned can be re-used multiple times.
+
   
   
 
