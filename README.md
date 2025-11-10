@@ -291,7 +291,13 @@ Azure SQl:
   Tags are very simple Name(Key) - Value pairs. Designed to help with organization of Azure resources. Used for resource governance, security, operations management, cost management, automation etc.
   Typical tagging strategies: Functional - mark by function (ex: environment = production), Classification - mark by policies used (ex: classification = restricted), finance/accounting - mark for billing purposes (ex: department = finance), Partnership - mark by association of user/groups (ex: owner = Joe). Applicable for resources, resource groups and subscriptions. Not inherited by default.
 
-* 
+* Azure Policy
+
+  Designed to help with resource governance, security, compliance and cost management etc. Policies focus on resource properties (RBAC focused on user actions).
+  Policy definition - Defines what should happen . Like define the condition (if/else)and the effect (deny, audit, append, modify etc). Examples include allowed resource types, allowed locations, allowed SKUs,     inherit resource tags. Built-in and custome policies are supported.
+  Policy initiative - a group of policy definitions.
+  Policy assignment - assignment of a policy definition/inititative to a scope. Scopes can be assigned to management groups, subscriptions, resources and resource groups. Policy allows exclusion of scopes.
+
   
   
 
