@@ -1,7 +1,8 @@
 # Microsoft-Azure-Cloud-Services
 Azure fundamentals and concepts
 
-This notes is my personal understanding of the AZ-900 course based upon a Youtube Tutotrial.
+This notes is my personal understanding of the AZ-900 course based upon a Youtube Tutotrial and study guide available in microsoft official website https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-900
+
 This is useful for people who are trying to understand basic Azure concepts and trying to participate for AZ-900 certificate exam.
 
 People with no prior clouding knowledge or no idea of basic Azure concepts can start with this course. This is where we begin the journey in the cloud.
@@ -12,10 +13,83 @@ Concepts covered:
 > Azure pricing and support
 
 Study Areas: (Useful inforamtion for People who are trying for Azure certificate)
-Describe Cloud Concepts (15 to 20%)
-Describe core Azure Services (30-35%)
-Describe Security, Privacy, Compliance and trust(25-30%)
-Describe Azure pricing and support(20-25%)
+Describe Cloud Concepts (25-30%)
+Describe core Azure architecture and Services (35-40%)
+Describe Azure management and governance (30-35%)
+
+Describe Cloud Concepts
+> Describe cloud computing
+  Define cloud computing
+  Describe the shared responsibility model
+  Define cloud models, including private, public and hybrid
+  Identify appropriate use cases for each cloud model
+  Describe the consumption-based model
+  Compare cloud pricing models
+  Describe serverless
+> Describe the benefits of using cloud services
+  Describe the benefits of high avaialbility and scalability in the cloud
+  Describe the benefits of reliability and predictability in the cloud
+  Describe the benefits of security and governance in the cloud
+  Describe the benefits of manageability in the cloud
+> Describe cloud service types
+  Descibe infrastructure as a service (Iaas)
+  Describe platform as a service (Paas)
+  Describe Software as service (Saas)
+  Identify appropriate use cases for each cloud service type (Iaas, Paas, Saas)
+
+Describe Azure architecture and services (35-40%)
+> Describe the core architectural components of Azure
+  Describe Azure regions, region pairs, and sovereign regions
+  Describe availability zones
+  Describe Azure datacenters
+  Describe Azure resources and resource groups
+  Describe subscriptions
+  Describe management groups
+  Describe the hierarchy of resource groups, subscriptions and management groups
+> Describe Azure compute and networking services
+  Compare compute types, including containers, VM's and functions
+  Describe VM options, including Azure VM's, Azure VM scale sets, availability sets and Azure Virtual desktop
+  Describe the resources required for VM's
+  Describe application hosting options, including web apps, containers, and VM's
+  Describe Virtual networking, including the purpose of Azure virtual netwokrs, Azure virtual subnets, peering, Azure DNS, Azure VPN Gateway and Expressroute
+  Define public and private endpoints
+> Describe Azure storage services
+Compare Azure Storage services
+Describe storage tiers
+Describe redundancy options
+Describe storage account options and storage types
+Identify options for moving files, including AzCopy, Azure Storage Explorer, and Azure File Sync
+Describe migration options, including Azure Migrate and Azure Data Box
+> Describe Azure identity, access, and security
+Describe directory services in Azure, including Microsoft Entra ID and Microsoft Entra Domain Services
+Describe authentication methods in Azure, including single sign-on (SSO), multifactor authentication (MFA), and passwordless
+Describe external identities in Azure
+Describe Microsoft Entra Conditional Access
+Describe Azure role-based access control (RBAC)
+Describe the concept of Zero Trust
+Describe the purpose of the defense-in-depth model
+Describe the purpose of Microsoft Defender for Cloud
+
+Describe Azure mangement and governance (30-35%)
+> Describe cost management in Azure
+Describe factors that can affect costs in Azure
+Explore the pricing calculator
+Describe cost management capabilities in Azure
+Describe the purpose of tags
+> Describe features and tools in Azure for governance and compliance
+Describe the purpose of Microsoft Purview in Azure
+Describe the purpose of Azure Policy
+Describe the purpose of resource locks
+> Describe features and tools for managing and deploying azure resources
+Describe the Azure portal
+Describe Azure Cloud Shell, including Azure Command-Line Interface (CLI) and Azure PowerShell
+Describe the purpose of Azure Arc
+Describe infrastructure as code (IaC)
+Describe Azure Resource Manager (ARM) and ARM templates
+> Describe monitoring tools in Azure
+Describe the purpose of Azure Advisor
+Describe Azure Service Health
+Describe Azure Monitor, including Log Analytics, Azure Monitor alerts, and Application Insights
 
 
 * Introduction to Cloud Computing
